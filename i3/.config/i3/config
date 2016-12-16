@@ -223,3 +223,5 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute s
 bindsym XF86KbdBrightnessUp exec "/home/ejiek/.config/i3/scripts/kbl up"
 bindsym XF86KbdBrightnessDown exec "/home/ejiek/.config/i3/scripts/kbl down"
 bindsym XF86TouchpadToggle exec "/home/ejiek/.config/i3/scripts/touchpad_toggle.sh"
+# Screenshot
+bindsym Print exec gnome-screenshot -f ~/Pictures/screenshots/$(date +%F-%H:%M).png
